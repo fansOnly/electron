@@ -1,0 +1,29 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "my first electron app",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^7.1.5",
+    "electron-packager": "^14.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron . hello --win --out ./client --arch=x64 --app-version=0.0.1 --electron-version=4.1.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fansOnly/electron.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "fansonly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fansOnly/electron/issues"
+  },
+  "homepage": "https://github.com/fansOnly/electron#readme"
+}
